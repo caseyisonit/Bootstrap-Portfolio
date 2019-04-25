@@ -1,0 +1,48 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    background: #eee;
+    background-image: url("../images/floor-tile.png");
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-color: white;
+    margin-top: 200px;
+}
+.navbar-brand {
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 30px;
+}
+
+h2 {
+    color: teal;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    padding: 30px 0 25px 0;
+   
+}
+
+.row {
+    margin: 30px;
+}
+
+.content {
+    padding-bottom: 30px; 
+}
+
+.footer {
+    background-color:white;
+    height: 50px;
+}
+
+.profile-pic {
+    width: 100%;
+}
