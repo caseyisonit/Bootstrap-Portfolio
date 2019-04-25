@@ -1,19 +1,21 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 body {
-    background: #eee;
-    background-image: url("../images/floor-tile.png");
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    background-color: white;
-    margin-top: 200px;
+body, .sticky-footer-wrapper {
+    min-height:100vh;
+ }
+ 
+ .flex-fill {
+    flex:1 1 auto;
+ }
+ 
+.bg-blend {
+    background-image: url(../images/ocean1.jpg);
+    background-color: red;
+    background-blend-mode: multiply;
 }
+
 .navbar-brand {
     font-size: 36px;
     font-family: 'Abril Fatface', cursive;
@@ -22,27 +24,44 @@ body {
     padding: 30px;
 }
 
+.container {
+    background-color: white;
+    margin-top: 180px;
+}
+
 h2 {
-    color: teal;
     font-size: 30px;
     font-family: 'Abril Fatface', cursive;
-    padding: 30px 0 25px 0;
-   
+    padding: 15px 0;
 }
 
 .row {
-    margin: 30px;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+.row:first-child {
+    padding-top: 20px;
 }
 
 .content {
-    padding-bottom: 30px; 
+    padding-bottom: 20px; 
+    margin-bottom: 150px;
 }
 
-.footer {
-    background-color:white;
+footer {
+    background-color: darkred;
     height: 50px;
+    
+}
+
+.legal {
+    color: black;
+    padding: 50px;
+    text-align: center;
 }
 
 .profile-pic {
     width: 100%;
+    margin-bottom: 20px;
 }
