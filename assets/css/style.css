@@ -6,16 +6,14 @@ html, body {
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-.flex-fill {
-    flex:1 1 auto;
-}
  
 .bg-blend {
     background-image: url(../images/ocean1.jpg);
     background-color: red;
     background-blend-mode: multiply;
 }
+
+/* start of navigation */
 
 .navbar-brand {
     font-size: 36px;
@@ -25,6 +23,13 @@ body {
     padding: 30px;
 }
 
+/* start of content base */
+
+.body-content {
+    background-color: white;
+    margin-top: 180px;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
@@ -32,22 +37,9 @@ body {
     clear: both;
 }
 
-.wrapper {
-    height: auto !important;
-    height: 100%;
-    min-height: 100%;
-    margin: 0 auto -105px;
-  }
-
-.body-content {
-    background-color: white;
-    margin-top: 180px;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
-    padding: 15px 0;
+.content {
+    padding-bottom: 20px; 
+    margin-bottom: 150px;
 }
 
 .row {
@@ -59,37 +51,29 @@ h2 {
     padding-top: 20px;
 }
 
-.content {
-    padding-bottom: 20px; 
-    margin-bottom: 150px;
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
 }
 
-footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #fff;
-    color: #ccc;
-    text-align: center;
-    background: darkred;
-    border-top: 8px solid black;
-  }
+/* end of content base */
 
-footer,
-.push {
-  height: 105px;
-}
+/* start of about */
 
-.legal {
-    color: black;
-    padding: 50px;
-    text-align: center;
+h2 {
+    font-size: 30px;
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+    padding: 15px 0;
 }
 
 .profile-pic {
     width: 100%;
     margin-bottom: 20px;
 }
+
+/* end of about */
 
 /* start profile css */
 
@@ -109,5 +93,34 @@ footer,
     width: 100%;
 }
 
-
 /* end profile css */
+
+/* start of contact css */
+
+.btn-primary, .btn {
+    background-color: black;
+    border-color: black;
+    margin: -10px 0px 20px 0px;;
+}
+
+/* end of contact css */
+
+/* start of footer */
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: darkred;
+    border-top: 8px solid black;
+  }
+
+footer,
+.push {
+  height: 105px;
+}
+
+/*  end of footer */
